@@ -27,12 +27,12 @@
     </div>
     <div class="form-group">
         <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="checkbox">
+            <input type="checkbox" class="form-check-input" id="checkbox" name="statut">
             <label class="form-check-label" for="checkbox">Exporter les mails qui n'ont pas matchés</label>
         </div>
     </div>
     <div class="form-group">
-        <button type="button" class="btn btn-primary d-flex align-items-center justify-content-center text-white"><i class="fa fa-spinner fa-spin" id="loader" style="display:none;margin-right:8px;"></i>Comparer</button>
+        <button type="submit" class="btn btn-primary d-flex align-items-center justify-content-center text-white" id="fileButton"><i class="fa fa-spinner fa-spin" id="loader" style="display:none;margin-right:8px;"></i>Comparer</button>
     </div>
 </form>
 <form action="" method="post" id='dbForm' style="display: none">
@@ -50,4 +50,5 @@
 @endsection
 @section('scripts')
     <script src="{{asset('js/comparator/db.js')}}"></script>
+    <script src="{{asset('js/comparator/files.js')}}"></script>
 @endsection

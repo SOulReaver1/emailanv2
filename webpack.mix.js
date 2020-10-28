@@ -14,4 +14,5 @@ const mix = require('laravel-mix');
 mix.js('resources/js/emails/create.js', 'public/js/emails')
     .js('resources/js/comparator/db.js', 'public/js/comparator')
     .js('resources/js/tags/create.js', 'public/js/tags')
+    .js('resources/js/comparator/files.js', 'public/js/comparator')
     // .sass('resources/sass/app.scss', 'public/css');

@@ -30,7 +30,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/', 'ComparatorController@index')->name('index');
     Route::get('create', 'ComparatorController@create')->name('create');
     Route::post('create/database', 'ComparatorController@withDatabase')->name('db');
-    Route::post('create/files', 'ComparatorController@files')->name('files');
+    Route::post('create/files', 'ComparatorController@between2Files')->name('files');
   });
   Route::prefix('repoussoir')->name('encrypt.')->group(function () {
     Route::get('/', 'EncryptController@index')->name('index');

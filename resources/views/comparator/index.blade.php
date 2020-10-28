@@ -17,7 +17,7 @@
                 <tr>
                     <th>{{$comparator->id}}</th>
                     <th>{{$comparator->path}}</th>
-                    <th>@if ($comparator->statut === 0)
+                    <th>@if ($comparator->statut == 0)
                         <a href="{{asset($comparator->path)}}" download class="btn btn-primary">Télécharger</a>
                     @else
                         <button type="button" class="btn btn-danger">En attente</button>

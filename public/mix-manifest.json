@@ -1,5 +1,6 @@
 {
     "/js/comparator/db.js": "/js/comparator/db.js",
+    "/js/comparator/files.js": "/js/comparator/files.js",
     "/js/emails/create.js": "/js/emails/create.js",
     "/js/tags/create.js": "/js/tags/create.js"
 }
